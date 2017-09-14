@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <title>Sunday School Signup</title>
+            <link rel="stylesheet" href="./assets/css/school_style.css" media="screen" title="no title">
+            <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    </head>
+        <body>
+            <style>
+                body{
+                margin: 0;
+                padding: 0;
+                background-image: url(./assets/img/kids.jpg);
+                background-size: 1280px 640px;
+            }
+            </style>
+            <div class="loginBox">
+                <img src="./assets/img/user.png" width="85" class="user">
+                <h2> Create an account</h2>
+              
+                 <form id="signup" name="signup" method="post" action="/signup">
+                    <p><label for="firstname">First Name</label>
+                    <input class="text" name="firstname" type="text" /></p>
+                    <p><label for="lastname">Last Name</label>
+                    <input name="lastname" type="text" /></p>
+                    <p><label for="email">Email-Address</label>
+                    <input class="text" name="email" type="email" /></p>
+                    <p><label for="password">Password</label>
+                    <input name="password" type="password" /></p>
+                    <input class="btn" type="submit" value="Create"/>
+                </form>
+                <a class="btn" type="submit" value="Cancel" href="/signin" > Cancel </a>
+           
+            </div>
+        </body>
+</html>

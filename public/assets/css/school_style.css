@@ -1,0 +1,216 @@
+*{
+
+}
+
+.loginBox{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 750px;
+	height: 350px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.3);
+	border-radius: 20px;
+	margin-right: 20px;
+}
+
+h2{
+	font-family: 'Indie Flower', cursive;
+	font-size: 45px;
+	color: #A00050;
+	text-shadow: 2px 2px 4px white;
+	text-align: center;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+.user{
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-80px/2);
+	margin-left: 45%;
+}
+
+.loginBox p {
+	margin: 5px;
+	padding: 0;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 15px;
+	text-shadow: 2px 2px 4px #A00050;
+	text-align: center;
+}
+.loginBox input{
+	width: 50%;
+	margin-bottom: 5px;
+	margin-left: 15px
+}
+
+.loginBox input[type="text"]{
+	border: none;
+	border-bottom: 2px solid white;
+	background: transparent;
+	margin-left: 15px
+	outline: none;
+	height: 20px;
+	color: white;
+	font-size: 16px;
+	
+}
+.loginBox input[type="email"]{
+	border: none;
+	border-bottom: 2px solid white;
+	background: transparent;
+	margin-left: 15px
+	outline: none;
+	height: 20px;
+	color: white;
+	font-size: 16px;
+	margin-top: 0;
+}
+.loginBox input[type="password"]{
+	border: none;
+	border-bottom: 2px solid white;
+	background: transparent;
+	margin-left: 15px
+	outline: none;
+	height: 20px;
+	color: white;
+	font-size: 16px;
+	margin-bottom: 12px;
+	margin-left: 50px;
+}
+
+.loginBox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #E3DFDF;
+	font-size: 20px;
+	background: #A00050;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 20px;
+	margin-right: 10px;
+	margin-left: 120px;
+}
+#create {
+	margin-left: 250px;
+	width: 200px;
+}
+
+#cancel {
+	margin-left: 250px;
+	width: 200px;
+}
+
+.loginBox input[type="submit"]:hover{
+	background: #E3DFDF;
+	color: #A00050;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.loginBox a{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Indie Flower', cursive;
+}
+
+.jumbotron{
+	/* IE8 and below */
+    background: rgba(0, 0, 0, 0,3);
+    /* all other browsers */
+    background: rgba(0, 0, 0, 0.3);
+}
+
+h1{
+	font-family: 'Indie Flower', cursive;
+	font-size: 45px;
+	color: white;
+	text-shadow: 2px 2px 4px white;
+	text-align: center;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+.panel-transparent {
+    background: none;
+    border: none;
+}
+
+.panel-transparent .panel-heading{
+    background: rgba(0, 0, 0, 0.3);
+    border: none; 
+    width: 925px;
+    margin-left: 12px; 
+}
+
+.panel-transparent .panel-body{
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    width: 925px;
+    margin-left: 12px;
+
+}
+h3.panel-title {
+	font-family: 'Indie Flower', cursive;
+	font-size: 25px;
+	color: #A00050;
+	text-shadow: 2px 2px 4px white;
+	text-align: center;
+	font-weight: bold;	
+}
+
+#first{
+	font-family: 'Indie Flower', cursive;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	margin-bottom: 0px;
+	font-weight: bold;
+	background-color: #A00050;
+	border: none; 
+	border-radius: 20px;
+	margin-left: 75px;
+}
+#second{
+	font-family: 'Indie Flower', cursive;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	margin-bottom: 0px;
+	font-weight: bold;
+	background-color: #A00050;
+	border: none; 
+	border-radius: 20px;
+	float: left;
+	margin-right: 75px;
+}
+#third{
+	font-family: 'Indie Flower', cursive;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	margin-bottom: 0px;
+	font-weight: bold;
+	background-color: #A00050;
+	border: none; 
+	border-radius: 20px;
+	margin-left: 75px;
+	float: right;
+}
+.col-lg-10{
+	margin-left: 95px;
+}
+
+#names{
+	margin-left: 50px;
+}

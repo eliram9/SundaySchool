@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration</title>
+    <!-- Bootstrap CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/school_style.css" media="screen" title="no title">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+
+<body>
+   <style>
+    body{
+        margin: 0;
+                padding: 0;
+                background-image: url(./assets/img/kids.jpg);
+                background-size: 1280px 640px
+    }
+    </style>
+    <div class="container">
+        <div class="col-lg-10">
+        <div class="jumbotron">
+            <h1>Student Registration</h1>
+            <br>
+            <a href="/add" id="first" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-plus"></span> Add New Student</a>
+            <a href="/all" id="second" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-th-list"></span> All Students</a>
+            <a href="/signin" id="third" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-log-out"></span> Log out</a>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong>Add Student</strong></h3>
+                    </div>
+                    <div class="panel-body">
+                        <form action="" method="POST" role="form">
+                            <div class="form-group">
+                                <label for="">First Name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Level</label>
+                               
+                                <select class="chosen-select" id="level">
+                                    <option value="1">1 (beginner) </option>
+                                    <option value="2">2 (medium) </option>
+                                    <option value="3">3 (advanced) </option>
+                                </select>
+                            </div>
+                        </form>
+                        <br>
+                        <div class="text-right">
+                            <button type="submit" class="btn btn-primary btn-md" id="add-btn"><span class="glyphicon glyphicon-book"></span> Add a Student</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Custom Script -->
+    <script src="js/add.js" type="text/javascript"></script>
+</body>
+
+</html>

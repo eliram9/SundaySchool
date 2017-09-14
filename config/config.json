@@ -1,0 +1,20 @@
+{
+    "development": {
+        "username": "root",
+        "password": "",
+        "database": "sunday",
+        "host": "localhost",
+        "dialect": "mysql"
+    },
+    "test": {
+        "username": "",
+        "password": null,
+        "database": "",
+        "host": "",
+        "dialect": "mysql"
+    },
+    "production": {
+        "use_env_variable":"JawsDB_URL",
+        "dialect": "mysql"
+    }
+}
